@@ -39,7 +39,7 @@ namespace StokCoreUI.Controllers
             {
                 HttpContext.Session.SetString("TaxNumber",company.TaxNumber);
                 HttpContext.Session.SetString("AuthorizedPerson", company.AuthorizedPerson);
-               
+                HttpContext.Session.SetInt32("CompanyId", company.Id);
                 return Redirect("~/Company/Index");
             }
             else
