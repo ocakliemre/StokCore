@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="StokCoreData">
+      <HintPath>..\StokCoreData\bin\Debug\netcoreapp2.1\StokCoreData.dll</HintPath>
+    </Reference>
+    <Reference Include="StokCoreInterfaces">
+      <HintPath>..\StokCoreInterfaces\bin\Debug\netcoreapp2.1\StokCoreInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="StokCoreModels">
+      <HintPath>..\StokCoreData\bin\Debug\netcoreapp2.1\StokCoreModels.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

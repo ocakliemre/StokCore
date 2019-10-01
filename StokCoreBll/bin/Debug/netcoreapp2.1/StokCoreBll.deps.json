@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "StokCoreBll/1.0.0": {
+        "dependencies": {
+          "StokCoreData": "1.0.0.0",
+          "StokCoreInterfaces": "1.0.0.0",
+          "StokCoreModels": "1.0.0.0"
+        },
+        "runtime": {
+          "StokCoreBll.dll": {}
+        }
+      },
+      "StokCoreData/1.0.0.0": {
+        "runtime": {
+          "StokCoreData.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "StokCoreInterfaces/1.0.0.0": {
+        "runtime": {
+          "StokCoreInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "StokCoreModels/1.0.0.0": {
+        "runtime": {
+          "StokCoreModels.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StokCoreBll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StokCoreData/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StokCoreInterfaces/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StokCoreModels/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
